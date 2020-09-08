@@ -26,6 +26,9 @@ newImg.setAttribute('src', 'https://cdn.vox-cdn.com/thumbor/rciSylhFKjZ950eIEGGF
 const tacos = document.querySelector('.tacos')
 tacos.appendChild(newImg)
 
+console.log(list[5])
+list[5].remove()
+
 
 
 
